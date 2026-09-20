@@ -1,0 +1,27 @@
+{
+  "name": "dulms-watcher",
+  "version": "14.0.0",
+  "description": "DULMS Watcher v14.0 Monolith — Multi-signal detection + Session resilience + AES-256-GCM",
+  "main": "watch.js",
+  "scripts": {
+    "start": "node watch.js",
+    "migrate": "node scripts/migrate-state.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dulms",
+    "watcher",
+    "monitoring",
+    "telegram",
+    "playwright",
+    "gen101"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true
+}
